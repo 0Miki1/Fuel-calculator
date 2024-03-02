@@ -1,7 +1,6 @@
 name: build-validation
 
 on: 
-  push:
   pull_request:
     branches: [ main, develop ]
     paths:
