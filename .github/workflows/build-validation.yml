@@ -10,6 +10,7 @@ on:
 env:
   DOTNET_VERSION: '6.0.401'
   SOLUTION_LOCATION: '././Fuel-calculator'
+  EDITORCONFIG_LOCATION: './.'
 
 jobs:
   build:
