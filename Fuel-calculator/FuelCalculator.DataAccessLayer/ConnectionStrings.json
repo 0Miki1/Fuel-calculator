@@ -1,5 +1,5 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "server=mikids220.synology.me;database=FuelCalculator;uid=fuelcalculator;pwd=Fuel_Calculator_123;"
+    
   }
 }
