@@ -47,4 +47,5 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore ${{ env.SOLUTION_LOCATION }}
     - name: Format
-      run: dotnet format --verify-no-changes --verbosity diagnostic ${{ env.SOLUTION_LOCATION }}
+      # run: dotnet format --verify-no-changes --verbosity diagnostic ${{ env.SOLUTION_LOCATION }}
+      run: dotnet format --verify-no-changes --verbosity diagnostic ././
