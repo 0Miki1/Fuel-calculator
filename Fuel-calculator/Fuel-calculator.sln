@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelCalculator.DataAccessLayer", "FuelCalculator.DataAccessLayer\FuelCalculator.DataAccessLayer.csproj", "{E92437E7-CD76-468C-BEC1-F0DB53CC0BD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelCalculator.Api", "FuelCalculator.Api\FuelCalculator.Api.csproj", "{4AD79A81-AB3C-4827-BA64-E79FFAB9BF8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelCalculator.Domain", "FuelCalculator.Domain\FuelCalculator.Domain.csproj", "{B28B67B6-E07A-4F47-AFB7-3E2A06AD08B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelCalculator.BusinessLogic", "FuelCalculator.BusinessLogic\FuelCalculator.BusinessLogic.csproj", "{A69D3471-A9A5-4CC0-B9F7-90AB8CC557ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuelCalculator.Common", "FuelCalculator.Common\FuelCalculator.Common.csproj", "{6C76F823-EF06-4345-B423-EF486560F1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC59611E-5F81-4C46-9CA2-9283EA8106C8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E92437E7-CD76-468C-BEC1-F0DB53CC0BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92437E7-CD76-468C-BEC1-F0DB53CC0BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92437E7-CD76-468C-BEC1-F0DB53CC0BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92437E7-CD76-468C-BEC1-F0DB53CC0BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD79A81-AB3C-4827-BA64-E79FFAB9BF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD79A81-AB3C-4827-BA64-E79FFAB9BF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD79A81-AB3C-4827-BA64-E79FFAB9BF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD79A81-AB3C-4827-BA64-E79FFAB9BF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28B67B6-E07A-4F47-AFB7-3E2A06AD08B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28B67B6-E07A-4F47-AFB7-3E2A06AD08B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28B67B6-E07A-4F47-AFB7-3E2A06AD08B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28B67B6-E07A-4F47-AFB7-3E2A06AD08B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69D3471-A9A5-4CC0-B9F7-90AB8CC557ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69D3471-A9A5-4CC0-B9F7-90AB8CC557ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69D3471-A9A5-4CC0-B9F7-90AB8CC557ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69D3471-A9A5-4CC0-B9F7-90AB8CC557ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C76F823-EF06-4345-B423-EF486560F1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C76F823-EF06-4345-B423-EF486560F1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C76F823-EF06-4345-B423-EF486560F1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C76F823-EF06-4345-B423-EF486560F1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E74D1992-9216-40A9-8862-C3B8497679A3}
+	EndGlobalSection
+EndGlobal
