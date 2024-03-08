@@ -12,7 +12,8 @@ namespace FuelCalculator.Domain.Entities
         [Required, MaxLength(120)]
         public string UserName { get; set; } = string.Empty;
 
-        [MaxLength(60)]
+        //asd
+        [Required, MaxLength(60)]
         public string Password { get; set; } = string.Empty;
     }
 }
